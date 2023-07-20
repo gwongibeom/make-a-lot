@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>메롯 - 친구 사귀기</title>
+        <link rel="stylesheet" href="./styles/index.css" />
+        <link rel="stylesheet" href="./styles/font.css" />
+        <script
+            src="https://kit.fontawesome.com/8138f96753.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="wrap">
+            <header>
+                <h1 id="logo">메롯</h1>
+            </header>
+            <main>
+                <form action="/match_friends" method="post">
+                    <label for="gender">원하는 성별:</label>
+                    <select id="gender" name="gender">
+                        <option value="">성별 선택</option>
+                        <option value="male">남성</option>
+                        <option value="female">여성</option>
+                        <option value="all">상관 없음</option>
+                    </select>
+
+                    <label for="friend_type">원하는 선후배 유형:</label>
+                    <select id="friend_type" name="friend_type">
+                        <option value="">유형 :</option>
+                        <option value="senior">선배</option>
+                        <option value="junior">후배</option>
+                        <option value="all">상관 없음</option>
+                    </select>
+
+                    <label for="filter">원하는 친구 :</label>
+                    <textarea
+                        id="filter"
+                        name="filter"
+                        rows="4"
+                        cols="50"
+                        placeholder="전공 공부를 같이 하면서 주말에 롤도 돌리는 친구가 필요해요!"
+                    ></textarea>
+                    <label for="interest">관심사 :</label>
+                    <textarea
+                        id="interest"
+                        name="interest"
+                        rows="1"
+                        cols="50"
+                        placeholder="게임, 노래부르기, 운동"
+                    ></textarea>
+                    <label for="contact">원하는 거주구역 :</label>
+                    <input
+                        type="text"
+                        id="contact"
+                        name="contact"
+                        placeholder="동대문구"
+                    />
+
+                    <input type="submit" value="친구 매칭 신청!" />
+                    <p>작성된 조건은 매치된 상대방에게 전달돼요!</p>
+                </form>
+            </main>
+            <nav>
+                <a href="./index.html">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <div class="ver-bar"></div>
+                <a href="./profile.html">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </nav>
+        </div>
+    </body>
+</html>

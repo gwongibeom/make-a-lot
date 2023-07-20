@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+    .wrap {
+        width: 500px;
+    }
+}
+@media (max-width: 500px) {
+    .wrap {
+        width: 100vw;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+.wrap {
+    background-color: #fff;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+main {
+    height: 84vh;
+    display: flex;
+
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    width: 60%;
+    border-radius: 100vh;
+}
+
+.name {
+    color: #1d1f22;
+    text-align: center;
+    font-family: Pretendard Variable;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.school {
+    color: #838383;
+    font-family: Pretendard Variable;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.desc {
+    color: #1d1f22;
+    text-align: center;
+    font-family: Pretendard Variable;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tags {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tag {
+    display: flex;
+    padding: 3px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #1d1f22;
+
+    color: #fff;
+    text-align: center;
+    font-family: Pretendard Variable;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav {
+    border-radius: 3vh 3vh 0% 0%;
+    height: 8vh;
+    background-color: #f9f9f9;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav i {
+    font-size: 28px;
+}
+
+.ver-bar {
+    background-color: #6d6d6d;
+    width: 0.5vw;
+    border-radius: 100vh;
+    height: 5vh;
+}
