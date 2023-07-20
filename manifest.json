@@ -1,0 +1,19 @@
+{
+  "background_color": "#ffffff",
+  "description": "메롯 - 선후배간 친구 사귀기",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "메롯",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "make a lot",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "social"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [],
+  "lang": "ko"
+}
