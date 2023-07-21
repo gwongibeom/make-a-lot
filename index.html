@@ -64,7 +64,7 @@
                         placeholder="동대문구"
                     />
 
-                    <input type="submit" value="친구 매칭 신청!" />
+                    <input type="submit" class="submit" value="친구 매칭 신청!" />
                     <p>작성된 조건은 매치된 상대방에게 전달돼요!</p>
                 </form>
             </main>
@@ -79,10 +79,12 @@
             </nav>
         </div>
         <script>
-            const form = document.querySelector('form').addEventListener('click', (e) => {
-                alert('신청이 완료되었습니다.')
-                e.preventDefault()
-            })
+            const form = document
+                .querySelector('.submit')
+                .addEventListener('click', (e) => {
+                    alert('신청이 완료되었습니다.')
+                    e.preventDefault()
+                })
         </script>
     </body>
 </html>
