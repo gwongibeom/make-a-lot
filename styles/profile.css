@@ -147,3 +147,7 @@ nav i {
     border-radius: 100vh;
     height: 5vh;
 }
+
+.edit-btn {
+    cursor: pointer;
+}
